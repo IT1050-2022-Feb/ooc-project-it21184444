@@ -1,0 +1,18 @@
+class Package
+{
+	private:
+		int customerID;
+		int packageID;
+		float price;
+		float discount;
+		char packagename[20];
+		
+	public:
+		Package ();
+		Package(int ccustomerID,float cprice,float cdiscount,const char cpackagename[]);
+		void displayprice();
+		int getPackageId();
+		~Package();
+};	
+
+Package::Package(){}
