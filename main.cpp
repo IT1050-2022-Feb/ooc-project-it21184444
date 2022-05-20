@@ -7,6 +7,8 @@
 #include "Feedback.h"
 #include "Package.h"
 #include "Payment.h"
+#include "Admin.h"
+#include "Booking.h"
 #include "UserRegistration.h"
 
 using namespace std;
